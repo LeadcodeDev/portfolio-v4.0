@@ -1,9 +1,14 @@
 <template>
-test
+  <NuxtLayout name="blog">
+    <BlogContainer />
+  </NuxtLayout>
 </template>
 
-<script setup lang='ts'>
-
+<script lang="ts">
+import BlogContainer from '../../components/BlogContainer.vue'
+defineComponent({
+  template: 'blog'
+})
 </script>
 
 <style>
