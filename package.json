@@ -6,8 +6,11 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt3": "^3.0.0-27234417.10170da",
+    "vite-plugin-windicss": "^1.4.11",
+    "windicss": "^3.1.9"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.1"
   }
 }
